@@ -1,6 +1,6 @@
 //
 //  ViewController.swift
-//  ElectroLine
+//  ElectroAdmin
 //
 //  Created by Asgedom Yohannes on 5/27/19.
 //  Copyright © 2019 Asgedom Yohannes. All rights reserved.

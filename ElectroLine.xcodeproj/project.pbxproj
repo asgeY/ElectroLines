@@ -3,18 +3,42 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		343D8E41B4E0C3D09902591C /* Pods_ElectroLine.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0505CCA124C150A4546F8644 /* Pods_ElectroLine.framework */; };
+		540C72E14EC1EA978C17785B /* Pods_ElectroAdmin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51422A86EF14284D168347A8 /* Pods_ElectroAdmin.framework */; };
+		D9357727229C765700034D65 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9357726229C765700034D65 /* Extensions.swift */; };
+		D9357729229C88AF00034D65 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9357728229C88AF00034D65 /* Constants.swift */; };
+		D935772C229C8F1A00034D65 /* RoundedViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = D935772B229C8F1A00034D65 /* RoundedViews.swift */; };
 		D9E5A63F229BAC73008EF43C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9E5A63E229BAC73008EF43C /* AppDelegate.swift */; };
 		D9E5A641229BAC73008EF43C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9E5A640229BAC73008EF43C /* ViewController.swift */; };
 		D9E5A644229BAC73008EF43C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9E5A642229BAC73008EF43C /* Main.storyboard */; };
 		D9E5A646229BAC74008EF43C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9E5A645229BAC74008EF43C /* Assets.xcassets */; };
 		D9E5A649229BAC74008EF43C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9E5A647229BAC74008EF43C /* LaunchScreen.storyboard */; };
+		D9E5A657229BACEC008EF43C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9E5A656229BACEC008EF43C /* AppDelegate.swift */; };
+		D9E5A659229BACEC008EF43C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9E5A658229BACEC008EF43C /* ViewController.swift */; };
+		D9E5A65C229BACEC008EF43C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9E5A65A229BACEC008EF43C /* Main.storyboard */; };
+		D9E5A661229BACED008EF43C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9E5A65F229BACED008EF43C /* LaunchScreen.storyboard */; };
+		D9E5A667229BAD79008EF43C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9E5A645229BAC74008EF43C /* Assets.xcassets */; };
+		D9E5A669229BB17F008EF43C /* LogInStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9E5A668229BB17F008EF43C /* LogInStoryboard.storyboard */; };
+		D9E5A66D229BD458008EF43C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D9E5A66C229BD457008EF43C /* GoogleService-Info.plist */; };
+		D9E5A674229BDAA8008EF43C /* LognInVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9E5A673229BDAA8008EF43C /* LognInVC.swift */; };
+		D9E5A676229BDABD008EF43C /* RegisterVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9E5A675229BDABD008EF43C /* RegisterVC.swift */; };
+		D9E5A678229C60DF008EF43C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D9E5A677229C60DF008EF43C /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0505CCA124C150A4546F8644 /* Pods_ElectroLine.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ElectroLine.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		51422A86EF14284D168347A8 /* Pods_ElectroAdmin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ElectroAdmin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6042AE29E642B274EDE8B16C /* Pods-ElectroLine.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ElectroLine.debug.xcconfig"; path = "Target Support Files/Pods-ElectroLine/Pods-ElectroLine.debug.xcconfig"; sourceTree = "<group>"; };
+		62C76759E4EE79A2D2525B06 /* Pods-ElectroAdmin.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ElectroAdmin.debug.xcconfig"; path = "Target Support Files/Pods-ElectroAdmin/Pods-ElectroAdmin.debug.xcconfig"; sourceTree = "<group>"; };
+		7E782C803DE0195D1BE1BED1 /* Pods-ElectroLine.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ElectroLine.release.xcconfig"; path = "Target Support Files/Pods-ElectroLine/Pods-ElectroLine.release.xcconfig"; sourceTree = "<group>"; };
+		9FB1992F6B955C7E435AD8FB /* Pods-ElectroAdmin.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ElectroAdmin.release.xcconfig"; path = "Target Support Files/Pods-ElectroAdmin/Pods-ElectroAdmin.release.xcconfig"; sourceTree = "<group>"; };
+		D9357726229C765700034D65 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		D9357728229C88AF00034D65 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		D935772B229C8F1A00034D65 /* RoundedViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedViews.swift; sourceTree = "<group>"; };
 		D9E5A63B229BAC73008EF43C /* ElectroLine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ElectroLine.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9E5A63E229BAC73008EF43C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D9E5A640229BAC73008EF43C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +46,17 @@
 		D9E5A645229BAC74008EF43C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D9E5A648229BAC74008EF43C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D9E5A64A229BAC74008EF43C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D9E5A654229BACEC008EF43C /* ElectroAdmin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ElectroAdmin.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9E5A656229BACEC008EF43C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D9E5A658229BACEC008EF43C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D9E5A65B229BACEC008EF43C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D9E5A660229BACED008EF43C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D9E5A662229BACED008EF43C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D9E5A668229BB17F008EF43C /* LogInStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LogInStoryboard.storyboard; sourceTree = "<group>"; };
+		D9E5A66C229BD457008EF43C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		D9E5A673229BDAA8008EF43C /* LognInVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LognInVC.swift; sourceTree = "<group>"; };
+		D9E5A675229BDABD008EF43C /* RegisterVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterVC.swift; sourceTree = "<group>"; };
+		D9E5A677229C60DF008EF43C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +64,67 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				343D8E41B4E0C3D09902591C /* Pods_ElectroLine.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9E5A651229BACEC008EF43C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				540C72E14EC1EA978C17785B /* Pods_ElectroAdmin.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7E363F4F17C5C44C11FFD500 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				51422A86EF14284D168347A8 /* Pods_ElectroAdmin.framework */,
+				0505CCA124C150A4546F8644 /* Pods_ElectroLine.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C67BEFE7FC7914964E1977B7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				62C76759E4EE79A2D2525B06 /* Pods-ElectroAdmin.debug.xcconfig */,
+				9FB1992F6B955C7E435AD8FB /* Pods-ElectroAdmin.release.xcconfig */,
+				6042AE29E642B274EDE8B16C /* Pods-ElectroLine.debug.xcconfig */,
+				7E782C803DE0195D1BE1BED1 /* Pods-ElectroLine.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		D9357725229C763F00034D65 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				D9357726229C765700034D65 /* Extensions.swift */,
+				D9357728229C88AF00034D65 /* Constants.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		D935772A229C8F0300034D65 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D935772B229C8F1A00034D65 /* RoundedViews.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		D9E5A632229BAC73008EF43C = {
 			isa = PBXGroup;
 			children = (
+				D9E5A666229BAD58008EF43C /* Shared */,
 				D9E5A63D229BAC73008EF43C /* ElectroLine */,
+				D9E5A655229BACEC008EF43C /* ElectroAdmin */,
 				D9E5A63C229BAC73008EF43C /* Products */,
+				C67BEFE7FC7914964E1977B7 /* Pods */,
+				7E363F4F17C5C44C11FFD500 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -47,6 +132,7 @@
 			isa = PBXGroup;
 			children = (
 				D9E5A63B229BAC73008EF43C /* ElectroLine.app */,
+				D9E5A654229BACEC008EF43C /* ElectroAdmin.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -54,14 +140,72 @@
 		D9E5A63D229BAC73008EF43C /* ElectroLine */ = {
 			isa = PBXGroup;
 			children = (
-				D9E5A63E229BAC73008EF43C /* AppDelegate.swift */,
-				D9E5A640229BAC73008EF43C /* ViewController.swift */,
-				D9E5A642229BAC73008EF43C /* Main.storyboard */,
-				D9E5A645229BAC74008EF43C /* Assets.xcassets */,
-				D9E5A647229BAC74008EF43C /* LaunchScreen.storyboard */,
+				D9E5A671229BDA0A008EF43C /* View */,
+				D9E5A670229BD9F5008EF43C /* Model */,
+				D9E5A66F229BD9EC008EF43C /* Controller */,
+				D9E5A672229BDA1E008EF43C /* StoryBoards */,
 				D9E5A64A229BAC74008EF43C /* Info.plist */,
 			);
 			path = ElectroLine;
+			sourceTree = "<group>";
+		};
+		D9E5A655229BACEC008EF43C /* ElectroAdmin */ = {
+			isa = PBXGroup;
+			children = (
+				D9E5A656229BACEC008EF43C /* AppDelegate.swift */,
+				D9E5A658229BACEC008EF43C /* ViewController.swift */,
+				D9E5A65A229BACEC008EF43C /* Main.storyboard */,
+				D9E5A65F229BACED008EF43C /* LaunchScreen.storyboard */,
+				D9E5A66C229BD457008EF43C /* GoogleService-Info.plist */,
+				D9E5A662229BACED008EF43C /* Info.plist */,
+			);
+			path = ElectroAdmin;
+			sourceTree = "<group>";
+		};
+		D9E5A666229BAD58008EF43C /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				D935772A229C8F0300034D65 /* Views */,
+				D9357725229C763F00034D65 /* Utils */,
+				D9E5A645229BAC74008EF43C /* Assets.xcassets */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		D9E5A66F229BD9EC008EF43C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D9E5A673229BDAA8008EF43C /* LognInVC.swift */,
+				D9E5A675229BDABD008EF43C /* RegisterVC.swift */,
+				D9E5A63E229BAC73008EF43C /* AppDelegate.swift */,
+				D9E5A640229BAC73008EF43C /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		D9E5A670229BD9F5008EF43C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D9E5A671229BDA0A008EF43C /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D9E5A672229BDA1E008EF43C /* StoryBoards */ = {
+			isa = PBXGroup;
+			children = (
+				D9E5A642229BAC73008EF43C /* Main.storyboard */,
+				D9E5A668229BB17F008EF43C /* LogInStoryboard.storyboard */,
+				D9E5A647229BAC74008EF43C /* LaunchScreen.storyboard */,
+				D9E5A677229C60DF008EF43C /* GoogleService-Info.plist */,
+			);
+			path = StoryBoards;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +215,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D9E5A64D229BAC74008EF43C /* Build configuration list for PBXNativeTarget "ElectroLine" */;
 			buildPhases = (
+				3DF125F1963CA06F04F89491 /* [CP] Check Pods Manifest.lock */,
 				D9E5A637229BAC73008EF43C /* Sources */,
 				D9E5A638229BAC73008EF43C /* Frameworks */,
 				D9E5A639229BAC73008EF43C /* Resources */,
+				085E5B8E102312C6027B928E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -82,6 +228,25 @@
 			name = ElectroLine;
 			productName = ElectroLine;
 			productReference = D9E5A63B229BAC73008EF43C /* ElectroLine.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D9E5A653229BACEC008EF43C /* ElectroAdmin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D9E5A663229BACED008EF43C /* Build configuration list for PBXNativeTarget "ElectroAdmin" */;
+			buildPhases = (
+				A12FC307FA25B64B8F2122B8 /* [CP] Check Pods Manifest.lock */,
+				D9E5A650229BACEC008EF43C /* Sources */,
+				D9E5A651229BACEC008EF43C /* Frameworks */,
+				D9E5A652229BACEC008EF43C /* Resources */,
+				448CC4FA824539CF7E5E461D /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ElectroAdmin;
+			productName = ElectroAdmin;
+			productReference = D9E5A654229BACEC008EF43C /* ElectroAdmin.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -95,6 +260,9 @@
 				ORGANIZATIONNAME = "Asgedom Yohannes";
 				TargetAttributes = {
 					D9E5A63A229BAC73008EF43C = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					D9E5A653229BACEC008EF43C = {
 						CreatedOnToolsVersion = 10.2.1;
 					};
 				};
@@ -113,6 +281,7 @@
 			projectRoot = "";
 			targets = (
 				D9E5A63A229BAC73008EF43C /* ElectroLine */,
+				D9E5A653229BACEC008EF43C /* ElectroAdmin */,
 			);
 		};
 /* End PBXProject section */
@@ -125,18 +294,126 @@
 				D9E5A649229BAC74008EF43C /* LaunchScreen.storyboard in Resources */,
 				D9E5A646229BAC74008EF43C /* Assets.xcassets in Resources */,
 				D9E5A644229BAC73008EF43C /* Main.storyboard in Resources */,
+				D9E5A678229C60DF008EF43C /* GoogleService-Info.plist in Resources */,
+				D9E5A669229BB17F008EF43C /* LogInStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9E5A652229BACEC008EF43C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9E5A661229BACED008EF43C /* LaunchScreen.storyboard in Resources */,
+				D9E5A667229BAD79008EF43C /* Assets.xcassets in Resources */,
+				D9E5A65C229BACEC008EF43C /* Main.storyboard in Resources */,
+				D9E5A66D229BD458008EF43C /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		085E5B8E102312C6027B928E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ElectroLine/Pods-ElectroLine-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ElectroLine/Pods-ElectroLine-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ElectroLine/Pods-ElectroLine-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3DF125F1963CA06F04F89491 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ElectroLine-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		448CC4FA824539CF7E5E461D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ElectroAdmin/Pods-ElectroAdmin-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ElectroAdmin/Pods-ElectroAdmin-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ElectroAdmin/Pods-ElectroAdmin-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A12FC307FA25B64B8F2122B8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ElectroAdmin-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		D9E5A637229BAC73008EF43C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D9357727229C765700034D65 /* Extensions.swift in Sources */,
 				D9E5A641229BAC73008EF43C /* ViewController.swift in Sources */,
+				D9E5A676229BDABD008EF43C /* RegisterVC.swift in Sources */,
+				D9E5A674229BDAA8008EF43C /* LognInVC.swift in Sources */,
+				D935772C229C8F1A00034D65 /* RoundedViews.swift in Sources */,
 				D9E5A63F229BAC73008EF43C /* AppDelegate.swift in Sources */,
+				D9357729229C88AF00034D65 /* Constants.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9E5A650229BACEC008EF43C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9E5A659229BACEC008EF43C /* ViewController.swift in Sources */,
+				D9E5A657229BACEC008EF43C /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -155,6 +432,22 @@
 			isa = PBXVariantGroup;
 			children = (
 				D9E5A648229BAC74008EF43C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		D9E5A65A229BACEC008EF43C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D9E5A65B229BACEC008EF43C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D9E5A65F229BACED008EF43C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D9E5A660229BACED008EF43C /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -280,6 +573,7 @@
 		};
 		D9E5A64E229BAC74008EF43C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6042AE29E642B274EDE8B16C /* Pods-ElectroLine.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -289,7 +583,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = AsgeY.ElectroLine;
+				PRODUCT_BUNDLE_IDENTIFIER = com.AsgeY.ElectroLine;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -298,6 +592,7 @@
 		};
 		D9E5A64F229BAC74008EF43C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7E782C803DE0195D1BE1BED1 /* Pods-ElectroLine.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -307,7 +602,45 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = AsgeY.ElectroLine;
+				PRODUCT_BUNDLE_IDENTIFIER = com.AsgeY.ElectroLine;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D9E5A664229BACED008EF43C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 62C76759E4EE79A2D2525B06 /* Pods-ElectroAdmin.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V8SF8848QZ;
+				INFOPLIST_FILE = ElectroAdmin/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = AsgeY.ElectroAdmin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D9E5A665229BACED008EF43C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9FB1992F6B955C7E435AD8FB /* Pods-ElectroAdmin.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V8SF8848QZ;
+				INFOPLIST_FILE = ElectroAdmin/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = AsgeY.ElectroAdmin;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -331,6 +664,15 @@
 			buildConfigurations = (
 				D9E5A64E229BAC74008EF43C /* Debug */,
 				D9E5A64F229BAC74008EF43C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D9E5A663229BACED008EF43C /* Build configuration list for PBXNativeTarget "ElectroAdmin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9E5A664229BACED008EF43C /* Debug */,
+				D9E5A665229BACED008EF43C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
