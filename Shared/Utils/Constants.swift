@@ -10,21 +10,23 @@ import Foundation
 import UIKit
 
 struct Storyboard {
-    static let LogInStoryboard = "LoginStoryBoard"
+    static let LoginStoryboard = "LoginStoryboard"
     static let Main = "Main"
 }
 
 struct StoryboardId {
-    static let LogInVC = "logInVC"
+    static let LoginVC = "LoginVC"
 }
 
 struct AppImages {
     static let GreenCheck = "green_check"
-    static let redCheck = "red_check"
+    static let RedCheck = "red_check"
 }
 
 struct AppColors {
-    static let darkGrey = #colorLiteral(red: 0.3333333433, green: 0.3333333433, blue: 0.3333333433, alpha: 1)
-    static let maroon = #colorLiteral(red: 0.5785460524, green: 0.21843345, blue: 0.3176470588, alpha: 1)
-    static let lightGrey = #colorLiteral(red: 0.6666666865, green: 0.6666666865, blue: 0.6666666865, alpha: 1)
+    static let Blue = #colorLiteral(red: 0.2914361954, green: 0.3395442367, blue: 0.4364506006, alpha: 1)
+    static let Red = #colorLiteral(red: 0.8352941176, green: 0.3921568627, blue: 0.3137254902, alpha: 1)
+    static let OffWhite = #colorLiteral(red: 0.9529411765, green: 0.9490196078, blue: 0.968627451, alpha: 1)
 }
+
+
